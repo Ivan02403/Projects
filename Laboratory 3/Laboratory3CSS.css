@@ -1,0 +1,223 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #ADEFD1FF;
+	padding: 0;
+	
+}
+	/*Navigation*/
+
+nav ul{
+	list-style: none;
+	display:  flex;
+	padding: 0;
+	justify-content: center;
+}
+
+nav li
+	{
+		padding: 1.5rem;
+	}
+
+nav a{
+	text-decoration: none;
+	color:#ffff;
+	font-weight:700;
+	padding:.25em 0;}
+
+.link:hover{
+	color:#1792d2;
+	background-color:#ADEFD1FF ;
+	padding: 20px;
+	border-radius: 50px;
+}
+.link:focus{
+	color:#1792d2;
+	background-color:lightblue ;
+	padding: 20px;
+	border-radius: 50px;
+}
+
+
+
+	/*****Container*****/
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 900px;
+	padding-right: 0;
+	padding-left: 0;
+
+}
+
+.container-nav{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 100px;
+
+}
+
+header{
+	background-color: #00203FFF;
+	padding: 2.em 0;
+}
+
+	/*****Typography*****/
+.logoName {
+	font-family:'Lora', serif;
+	font-weight: 400;
+	color:#ADEFD1FF;
+	font-size:2rem;
+	margin:0;
+}
+
+.section{
+	font-weight:700;
+	color:#ADEFD1FF;
+	font-size: 1rem;
+	margin:0;
+	text-align:center;
+}
+
+.name {
+	display: column;
+	margin-top: 25px;
+}
+
+	/*****Profile*****/
+#proId{
+	/*padding: 200px;*/
+	width: 20%;
+	border-radius: 50%;
+	border: 1px solid white;
+	margin: auto;
+	display: block;
+}
+
+.box{
+	border: 1px solid #00203FFF;
+	padding: 40px;
+	background-color: rgba(	0, 32, 63, .5);
+	color: white;
+	width: 70%;
+	margin: auto;
+	margin-top: -1%;
+	font-family: 'century gothic', sans-serif;
+	text-align: center;
+	border-radius: 20px;
+	padding-bottom: 55px;
+}
+
+#subtitle{
+	margin-top: -2%;
+}
+
+.head{
+	text-align: center;
+	font-family: monospace;
+	font-size: 35px;
+	margin: 1%;
+	color: #00203FFF;
+}
+
+.background {
+	margin: auto;
+	margin-top: 1%;
+	text-align: center;
+	margin-bottom: -1%;
+
+}
+
+#education{
+	list-style: none;
+	font-family: cursive;
+}
+
+.cover{
+	margin-top: 50px;
+	width:800px;
+	height:400px;
+	display: flex;
+	margin:auto;
+	margin-top: -1%;
+	justify-content: center;}
+
+.box-1{
+	color: #00203F;
+	width: 900px;
+	height:450px;
+	margin-top: 0px;
+	margin:20px;
+	box-shadow: -1px 0 10px #0000;
+	background-color: #fff;
+	border-radius: 20px;}
+
+.logo{
+	color:white;
+	background-color: antiquewhite;
+	box-shadow:inset -5px -5px rgba(0, 0, 0, 0.5);
+	width:200px;
+	height:200px;
+	margin-left: 75px;
+	margin-top:50px;
+	display:flex;
+	
+	
+}
+
+.know{
+	text-align: center;
+	margin:200px;
+	margin-top:5%;
+	margin-bottom:30px;
+}
+
+	/*****Achievements*****/
+#achieve{
+	display: column;
+	margin: auto;
+
+}
+.awards{
+	width:650px;
+	height:500px;
+	margin: auto;
+	display: flex;
+	margin-top: 5% ;
+	margin-bottom: 10% ;
+	border: 5px solid black;
+}
+ .head-2{
+ 	margin-bottom: 5%;
+ }
+
+ .honors{
+ 	text-align: center;
+ 	margin-top: -10%;
+ 	font-family: cursive;
+ 	font-size: 18px;
+ }
+
+ #top{
+	list-style: none;
+	font-family: cursive;
+	text-align: center;
+}
+
+.down{
+	margin-bottom: 1%;
+}
+
+.value{
+	width: 50%;
+	margin: auto;
+	display: flex;
+	margin-top: 5% ;
+	margin-bottom: 10% ;
+	border: 5px solid black;
+}
+
+#contacts{
+	margin-top: 10%;
+}
